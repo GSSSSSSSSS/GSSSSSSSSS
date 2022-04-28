@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GS
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Текущая дата и время");
+            Console.WriteLine(DateTime.Now);
+
+            Console.WriteLine("Анонимный опрос");
+
+            Console.Write("Какой у вас пол? ");
+            string sex = Console.ReadLine();
+            Console.WriteLine("Сколько вам лет?");
+            string age = Console.ReadLine();
+            Console.WriteLine("Ваш любимый вид спорта?");
+            string sport = Console.ReadLine();
+            Console.WriteLine("Сколько лет им занимаетесь?");
+            string year = Console.ReadLine();
+            Console.WriteLine("Ваш любимый цвет?");
+            string colour = Console.ReadLine();
+
+            Console.Write("Калькулятор на сложение. Ответ: ");
+
+            int x = 21;
+            int y = 21;
+            int sum = x + y;
+            Console.Write(sum);
+
+            Console.ReadKey();
+        }
+    }
+    }
