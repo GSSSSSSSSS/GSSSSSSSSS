@@ -1,0 +1,15 @@
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.csproj.AssemblyReference.cache
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\MainWindow.g.cs
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\App.g.cs
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN_MarkupCompile.cache
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN_MarkupCompile.lref
+C:\Users\231kab\source\repos\WpfAppN\bin\Debug\WpfAppN.exe.config
+C:\Users\231kab\source\repos\WpfAppN\bin\Debug\WpfAppN.exe
+C:\Users\231kab\source\repos\WpfAppN\bin\Debug\WpfAppN.pdb
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\MainWindow.baml
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.g.resources
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.Properties.Resources.resources
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.csproj.GenerateResource.cache
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.csproj.CoreCompileInputs.cache
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.exe
+C:\Users\231kab\source\repos\WpfAppN\obj\Debug\WpfAppN.pdb
