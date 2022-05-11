@@ -1,0 +1,7 @@
+Godot Engine v3.4.4.stable.official.419e713a2 - https://godotengine.org
+OpenGL ES 3.0 Renderer: Intel(R) UHD Graphics 630
+OpenGL ES Batching: ON
+ 
+Project is missing: C:/Users/231kab/Documents/Гусейнова Сабина/Для годота/project.godot
+ERROR: Condition "default_certs != nullptr" is true.
+   at: load_default_certificates (modules/mbedtls/crypto_mbedtls.cpp:314) - Condition "default_certs != nullptr" is true.
