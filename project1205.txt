@@ -1,0 +1,203 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" xml:lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Your Store</title>
+    <meta name="description" content="My Store" />
+    <link rel="stylesheet" type="text/css" href="stylesheet/960.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="stylesheet/screen.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheet/color.css" media="screen" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/shoppica.js"></script>
+
+</head>
+
+<body class="s_layout_fixed">
+
+    <div id="wrapper">
+
+        <div id="header" class="container_12">
+            <div class="grid_12">
+
+                <div>
+                    <div>
+                        <a href="ссылка_на_главную">
+                            <img src="~/image/logo.png" />
+                        </a>
+                    </div>
+                </div>
+
+                <a id="site_logo" href="index.html">E-Shop.Kz-Магазин электронной технологии</a>
+
+                <div id="system_navigation" class="s_nav">
+                    <ul class="s_list_1 clearfix">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="login.html">Вход</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="cart.html">Корзина</a></li>
+                        <li><a href="static.html">О нас</a></li>
+                    </ul>
+                </div>
+
+                <for>
+                    <input type="text" name=text" class="search" placeholder"Search here!">
+                    <input type="submit" name="submit" class="submit" value="Поиск">
+                </for>
+
+                </ul>
+                <span class="clear border_eee"></span>
+                <h3>Бренды электроники</h3>
+                <ul class="s_list_1 clearfix">
+                    <li><a href="listing_1.html">Samsung</a></li>
+                    <li><a href="listing_1.html">Apple</a></li>
+                    <li><a href="listing_1.html">Sony</a></li>
+                    <li><a href="listing_1.html">Vivo</a></li>
+                    <li><a href="listing_1.html">ЛОС</a></li>
+                    <li><a href="listing_1.html">Xiaomi</a></li>
+                    <li><a href="listing_1.html">Huawei</a></li>
+                    <li><a href="listing_1.html">Oppo</a></li>
+                    <li><a href="listing_1.html">Realme</a></li>
+                    <li><a href="listing_1.html">Meizu</a></li>
+                    <li><a href="listing_1.html">LG</a></li>
+                    <li><a href="listing_1.html">Nokia</a></li>
+                    <li><a href="listing_1.html">Lenovo</a></li>
+                    <li><a href="listing_1.html">ЛОС</a></li>
+
+                    <div id="categories" class="s_nav">
+                        <ul>
+                            <div class="s_submenu">
+                                <h3>Электроника</h3>
+                                <ul class="s_list_1 clearfix">
+                                    <li>
+                                        <a href="listing_1.html">Фотоаппараты</a>
+
+                                        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                                        <html>
+                                        <head>
+                                            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                                            <title>Размеры изображения</title>
+                                        </head>
+                                        <body>
+                                            <p><img src="~/image/1.jpg" width="150" height="111" alt="фотоаппарат"></p>
+                                            <div><span style="color:black;font-weight:bold">Цена: </span>60 000 тг.</div><br>
+                                        </body>
+                                    </html>
+
+                                <li><a href="listing_1.html">Компьютеры</a></li>
+
+                                <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                                <html>
+                                <head>
+                                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                                    <title>Размеры изображения</title>
+                                </head>
+                                <body>
+                                    <p><img src="~/image/2.jpg" width="150" height="111" alt="Компьютеры"></p>
+                                    <div><span style="color:black;font-weight:bold">Цена: </span>1 995 000 тг.</div><br>
+
+                                </body>
+                            </html>
+
+                            <li><a href="listing_1.html">Ноутбуки</a></li>
+
+                            <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                            <html>
+                            <head>
+                                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                                <title>Размеры изображения</title>
+                            </head>
+                            <body>
+                                <p><img src="~/image/3.jpg" width="150" height="111" alt="Ноутбуки"></p>
+                                <div><span style="color:black;font-weight:bold">Цена: </span>1 049 000 тг.</div><br>
+                            </body>
+                        </html>
+
+                        <li><a href="listing_1.html">Сотовые телефоны</a></li>
+
+                        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                        <html>
+                        <head>
+                            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                            <title>Размеры изображения</title>
+                        </head>
+                        <body>
+                            <p><img src="~/image/4.jpg" width="150" height="111" alt="Сотовые телефоны"></p>
+                            <div><span style="color:black;font-weight:bold">Цена: </span>729 990 тг.</div><br>
+                        </body>
+                    </html>
+
+                    <li><a href="listing_1.html">Телевизоры</a></li>
+
+                    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                    <html>
+                    <head>
+                        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                        <title>Размеры изображения</title>
+                    </head>
+                    <body>
+                        <p><img src="~/image/5.jpg" width="200" height="111" alt="Телевизоры"></p>
+                        <div><span style="color:black;font-weight:bold">Цена: </span>457 990 тг.</div><br>
+                    </body>
+                </html>
+
+                <li><a href="listing_1.html">Планшеты</a></li>
+
+                <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+                <html>
+                <head>
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                    <title>Размеры изображения</title>
+                </head>
+                <body>
+                    <p><img src="~/image/6.jpg" width="150" height="111" alt="Планшеты"></p>
+                    <div><span style="color:black;font-weight:bold">Цена: </span>249 557 тг.</div><br>
+                </body>
+            </html>
+
+            <li><a href="listing_1.html">Мышки, клавиатура, наушники</a></li>
+
+            <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+            <html>
+            <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <title>Размеры изображения</title>
+            </head>
+            <body>
+                <p><img src="~/image/7.jpg" width="150" height="111" alt="Мышки, клавиатура, наушники"></p>
+                <div><span style="color:black;font-weight:bold">Цена: </span>12 590 тг.</div><br>
+            </body>
+        </html>
+
+        <li><a href="listing_1.html">Флешки, диски</a></li>
+
+        <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+        <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>Размеры изображения</title>
+        </head>
+        <body>
+            <p><img src="~/image/8.jpg" width="150" height="111" alt="Флешки, диски"></p>
+            <div><span style="color:black;font-weight:bold">Цена: </span>800 до 79 590 тг.</div><br>
+        </body>
+    </html>
+
+</ul>
+</div>
+          </li>
+</body>
+</html>
+
