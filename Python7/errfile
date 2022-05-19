@@ -1,0 +1,4 @@
+  File "Z:\Кабинет 225\Гусейнова Сабина\Гусейнова (визуал студио)\proj\Python7\cmd1.py", line 2
+    print(Hello World!)
+                    ^
+SyntaxError: invalid syntax
